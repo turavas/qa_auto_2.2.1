@@ -1,22 +1,22 @@
 function increaseBalance(x, y) {
-  x = x + y;
+  x += y;
   return x;
 }
 
 function decreaseBalance(x, y) {
-x = x - y; 
+  x -= y; 
 return x;
 } 
 //добавлен аргумент у, т.к потом мы используем в функцмм переменную у, которая нигде не объявлена 
 
 function divideBalanceByAccounts(x, y) {
-  x = x / y;
+  x /= y;
   return x;
 } /*console.log("x"); после return не воспринимается компилятором. 
 Позже мы выводим результат в консоль при вызове функции с предачей значений аргументов */
 
 function getRestAfterDivision(x, y) {
-  x = x % y;
+  x %= y;
   return x;
 }
 
