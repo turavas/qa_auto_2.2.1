@@ -20,9 +20,21 @@ function getRestAfterDivision(x, y) {
   return x;
 }
 
+function incrementBalance(x) {
+  x++;
+  return x;
+}
+
+function decrementBalance(x) {
+  x--;
+  return x;
+}
+
 console.log(increaseBalance(3000, 700));
 console.log(decreaseBalance(3000, 700));
 console.log(divideBalanceByAccounts(3000, 2)); 
 // убрала 4000, т.к. в этой функции предаем только два аргумента
 
 console.log(getRestAfterDivision(7000, 3));
+console.log(incrementBalance(10));
+console.log(decrementBalance(10));
